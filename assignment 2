@@ -65,5 +65,39 @@ print('spam') # block 3
 
 
 Q8
-if spam==1:
+spam = 0
+if spam == 1:
+    print('hello')
+elif spam== 2:
+        print('howdy')
+else:   
+    print('greetings')
+    
+Q9
+control-C would be used for endless loop
+
+Q10
+Break is used to stop after the current process is exceuted
+and Continue is used to be shifted to next interation after current iteration
+
+Q11
+range(10) is used to define the end value
+range(0,10) is used to define the range by specifing start and end value
+range(0,10,1) is used to define the start, end and step size
+
+
+Q12
+ while loop
+ i = 1
+while (i<=10):
+    print(i)
+    i += 1
+    
+for loop
+for i in range (0,11):
+    print(i)
+    
+
+Q13
+spam.bacon()
 
