@@ -62,3 +62,8 @@ if spam == 10: # block 1
         print('ham')
     print('spam') # block 2
 print('spam') # block 3
+
+
+Q8
+if spam==1:
+
