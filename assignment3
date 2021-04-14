@@ -1,0 +1,43 @@
+Q1.
+Functions are advantageous as they reduce the size of programs, reduce repetition and make them easier to read.
+
+Q2.
+Code in a functions runs when it is called.
+
+Q3.
+The "def" keyword is used to create a function.
+
+Q4.
+Function is excecuted when it is called and function call is used to accept arguments and return an object.
+
+Q5.
+There is one global scope and no local scope
+
+Q6.
+when a function call returns the local scope is deleted and the variables are erased.
+
+Q7.
+Return value is used for exceuting the function call.
+Yes return value can be used as a part of expresssion
+
+Q8.
+If there is no return statement for a function, its return value is None.
+
+Q9.
+Global variable ensures that the fuction variable refers it.
+
+Q10.
+none goes under nonetype
+
+Q11.
+It will import a module for that name.
+
+Q12. 
+spam.bacon()
+
+Q13.
+Using error handling, one can get notified about the error and can exit that process to avoid crashing.
+
+Q14. 
+Try clause is used to test for errors in a code.
+Except clause is used to react when there are exceptions in a code.
