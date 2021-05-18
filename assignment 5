@@ -1,0 +1,28 @@
+Q1
+the empty dictionary code looks like {}
+
+Q2.
+{'foo':42}
+
+
+Q3.
+Dictionary just collects the items irrespective of its order
+List ensures that all items are arranged in a specific order.
+
+Q4.
+spam={'bar':100}
+spam['foo'] gives a keyerror 
+
+Q5.
+this is no such distinguishing difference.
+
+Q6.
+dictionary runs a check for any available 'cat' related key.
+And spam.values() checks for any value 'cat' that has one of the keys in spam.
+
+Q7.
+spam.setdefault('color', 'black')
+
+Q8.
+For pretty print the following command is used
+pprint.prrint()
