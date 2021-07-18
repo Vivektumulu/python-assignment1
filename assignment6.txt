@@ -1,0 +1,52 @@
+Q1. What are escape characters and how to use them?
+Ans- Escape characters are added with a backlash \
+    They are used to add special characters that can be added in strings.
+    
+Q2. What do escape characters n and t stand for?
+Ans- n stands for newline "\n"
+     t stands for tab
+     
+Q3. What is the way to introduce backlash characters in a string?
+Ans- Let us assume a simple statement
+        print (" this is a good time to write or sleep")
+        lets modify it by adding backlash characters
+              print (" this is a good time \n to write or sleep")
+    the output-  this is a good time 
+                 to write or sleep
+                 
+Q4. The string "Howl's moving castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped the problem.
+Ans- Its because ' is the equivalent of a backlash\
+
+Q5. How do you write a string of newlines if you don't want to use the n characters?
+Ans-  There are quite few approaches towards it. The simplest one is to add a comma. eg.
+        mylist = ("qwerty", "this does not make sense", "just in case")
+        for i in mylist:
+            print(i)
+            
+output- qwerty
+        this does not make sense
+        just in case
+        
+Q6. What are the values of given expressions?
+Ans-     'Hello, world!'[1]  -  'e'
+         'Hello, world!'[0:5]-  'Hello'
+         'Hello, world!'[:5]-   'Hello'
+         'Hello, world!'[3:] -  'lo, world!'
+         
+Q7. What are the values of following expressions.
+Ans-     'Hello'.upper()- 'HELLO'
+         'Hello'.upper().isupper()- True
+         'Hello'.upper().lower()- 'hello'
+
+Q8. What are the values of following expressions.
+Ans- 'Remember, remember, the fifth of July.'.split()
+      '-'.join('There can only one.'.split())
+output- 'There-can-only-one.'
+
+Q9. What are the methods for right-justifying, left-justifying, and centering a string?
+Ans- right-justifing- rjust()
+     left-justifing-  ljust()
+     centered-        center()
+Q10. What is the best way to remove whitespace characters from the start or end?
+Ans- implementing the replace() in the string
+        eg. replace(" ","")
