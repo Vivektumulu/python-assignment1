@@ -1,0 +1,101 @@
+
+1. What is the name of the feature responsible for generating Regex objects?
+Ans- re.compile()
+
+2. Why do raw strings often appear in Regex objects?
+Ans- To avoid escaping of backlashes from any object.
+
+3. What is the return value of the search() method?
+Ans-Finds all the match objects or none.
+
+4. From a Match item, how do you get the actual strings that match the pattern?
+Ans-Group() method is responsible to get the actual strings.
+
+5. In the regex which created from the r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group zero cover? Group 2? Group 1?
+Ans- Group()- brings the entire set
+    Group 2 brings the second set of parenthesis
+    Group 1 brings the first set of parenthesis
+    
+6. In standard expression syntax, parentheses and intervals have distinct meanings. How can you tell a regex that you want it to fit real parentheses and periods?
+Ans- A backlash is maily preffered in such cases \ or ,.
+
+7. The findall() method returns a string list or a list of string tuples. What causes it to return one of the two options?
+Ans- string list is return when there are no groups
+     String tuples are returned when there are groups
+     
+
+8. In standard expressions, what does the | character mean?
+Ans- It stands to create an expression of either/or.
+
+9. In regular expressions, what does the character stand for?
+Ans-  Regular expressions (shortened as "regex") are special strings representing a pattern to be matched in a search operation. They are an important tool in a wide variety of computing application.
+
+10.In regular expressions, what is the difference between the + and * characters?
+Ans- +- stands for one or more occurences
+     *- stands for zero or more occurences
+     
+11. What is the difference between {4} and {4,5} in regular expression?
+Ans- {4}- is 4 iterations for the previous group and {4,5} means the iterations from 4 to 5
+
+12. What do you mean by the \d, \w, and \s shorthand character classes signify in regular expressions?
+Ans-\d- digit character
+    \w- word character
+    \s- space character
+    
+13. What do means by \D, \W, and \S shorthand character classes signify in regular expressions?
+Ans-\D not a digit
+    \W not a word
+    \S not a space
+    
+14. What is the difference between .*? and .*?
+Ans- * is the greedy type and will pair with all cases and back till 1
+    *? is the non greedy type and will try to match the characters.
+    
+15. What is the syntax for matching both numbers and lowercase letters with a character class?
+Ans-  [0-9a-z] or [a-z0-9]
+
+16. What is the procedure for making a normal expression in regrex case insensitive?
+Ans-  using re.compile()
+
+17. What does the . character normally match? What does it match if re.DOTALL is passed as 2nd argument in re.compile()?
+Ans- It helps to pair and match any character accept newline.
+     re.DOTALL helps to pair and match all characters including newline.
+     
+18. If numReg = re.compile(r'\d+'), what will numRegex.sub('X', '11 drummers, 10 pipers, five rings, 4 hen') return?
+Ans-   'X drummers, X pipers, five rings, X hens'
+
+19. What does passing re.VERBOSE as the 2nd argument to re.compile() allow to do?
+Ans- allows you to add whitespace and comments to the string passed to re.compile().
+
+20. How would you write a regex that match a number with comma for every three digits? It must match the given following:
+'42'
+'1,234'
+'6,368,745'
+but not the following:
+'12,34,567' (which has only two digits between the commas)
+'1234' (which lacks commas)
+Ans-   re.compile(r'^\d{1,3}(,\d{3})*$')
+
+21. How would you write a regex that matches the full name of someone whose last name is Watanabe? You can assume that the first name that comes before it will always be one word that begins with a capital letter. The regex must match the following:
+'Haruto Watanabe'
+'Alice Watanabe'
+'RoboCop Watanabe'
+but not the following:
+'haruto Watanabe' (where the first name is not capitalized)
+'Mr. Watanabe' (where the preceding word has a nonletter character)
+'Watanabe' (which has no first name)
+'Haruto watanabe' (where Watanabe is not capitalized)
+Ans-    re.compile(r'[A-Z][a-z]*\watanabe')  
+
+22. How would you write a regex that matches a sentence where the first word is either Alice, Bob, or Carol; the second word is either eats, pets, or throws; the third word is apples, cats, or baseballs; and the sentence ends with a period? This regex should be case-insensitive. It must match the following:
+'Alice eats apples.'
+'Bob pets cats.'
+'Carol throws baseballs.'
+'Alice throws Apples.'
+'BOB EATS CATS.'
+but not the following:
+'RoboCop eats apples.'
+'ALICE THROWS FOOTBALLS.'
+'Carol eats 7 cats.'
+Ans-   re.compile(r'(Alice|Bob|Carol)\s(eats|pets|throws)\s(apples|cats|baseballs)\.', re.IGNORECASE)
+
