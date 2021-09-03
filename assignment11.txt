@@ -1,0 +1,49 @@
+1. Create an assert statement that throws an AssertionError if the variable spam is a negative integer.
+Ans- x=10
+assert x > 10
+print('The spam variable must be a negative integer.')
+
+2. Write an assert statement that triggers an AssertionError if the variables eggs and bacon contain strings that are the same as each other, even if their cases are different (that is, 'hello' and 'hello' are considered the same, and 'goodbye' and 'GOODbye' are also considered the same).
+Ans- eggs = 'hello'
+  bacon = 'good bye'
+  assert eggs.lower() != bacon.lower(), 'eggs/bacon should not be the same!
+  
+3. Create an assert statement that throws an AssertionError every time.
+Ans-   assert False, 'This assertion always triggers.'
+
+4. What are the two lines that must be present in your software in order to call logging.debug()?
+
+Ans- 
+ import logging
+  logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
+  
+5. What are the two lines that your program must have in order to have logging.debug() send a logging message to a file named programLog.txt?
+Ans- 
+import logging
+ logging.basicConfig(filename='programLog.txt', level=logging.DEBUG,
+ format=' %(asctime)s - %(levelname)s - %(message)s')
+ 
+6. What are the five levels of logging?
+Ans-
+  DEBUG, INFO, WARNING, ERROR, and CRITICAL
+
+7. What line of code would you add to your software to disable all logging messages?
+
+Ans- logging.disable(logging.CRITICAL)
+
+8.Why is using logging messages better than using print() to display the same message?
+Ans- It gives the ability to control and also configure it according to requirements. It also helps define what information should be included in the logs.
+
+9. What are the differences between the Step Over, Step In, and Step Out buttons in the debugger?
+Ans- Step over- this will debug the the given line and result will be returned directly
+Step In-  If the line does not contain a function it behaves the same as “step over” but if it does the debugger will enter the called function and continue line-by-line debugging there.
+Step out- it returns the debugger to the line where the current function is called.
+
+10.After you click Continue, when will the debugger stop ?
+Ans-   click Go, the debugger will stop when it has reached the end of the program with a breakpoint.
+
+11. What is the concept of a breakpoint?
+Ans- It is used to pause the debugging process when the program execution reaches at a defined breakpoint.
+
+
+
