@@ -1,0 +1,37 @@
+1. What does RGBA stand for?
+Ans- Red-Green-Blue_Alpha
+
+2. From the Pillow module, how do you get the RGBA value of any images?
+Ans-   Import the image module from the Pillow library from PIL import Image.
+      Open any image and get the 
+      RAGBAG values.img =Image.open('image.png') & rgba =img.convert(“RGBA”)
+      Change the color
+      data will be an imaging Core object containing thousands of tuples of RGBA values and finally store the changed image.
+
+3. What is a box tuple, and how does it work?
+Ans-   Tuple is a data structure that is employed to store multiple data at one time.
+       The data stored in a tuple are heterogeneous and this indeed makes it the most powerful feature of the tuple in Python.
+
+4. Use your image and load in notebook then, How can you find out the width and height of an Image object?
+Ans- first create an empty Markdown cell,then drag-and-drop the image file into the empty Markdown cell and then 
+  image = PIL. 
+  Image.open("sample.png") image to open.
+  width, height = image. size. extract width and height from output tuple.
+  print(width, height)
+  
+5. What method would you call to get Image object for a 100×100 image, excluding the lower-left quarter of it?
+Ans-    the resize() method to resize the image.
+
+6. After making changes to an Image object, how could you save it as an image file?
+Ans-   save() saves this image under the given filename,if no format is specified then the format to use is determined from the filename extension.
+
+7. What module contains Pillow’s shape-drawing code?
+Ans- image.save('image101.png')
+
+8. Image objects do not have drawing methods. What kind of object does? How do you get this kind of object?
+Ans- 
+img_draw = ImageDraw.Draw(canvas)
+img_draw.rectangle((70, 50, 300, 200), outline='red', fill='blue')
+img_draw.text((100, 100), 'Hello World', fill='green')
+canvas.save('drawn_image.jpg')
+
