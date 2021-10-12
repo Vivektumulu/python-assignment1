@@ -1,0 +1,34 @@
+1. What is the relationship between def statements and lambda expressions ?
+Ans-   
+lambda returns a value that can optionally be assigned a name.whereas the def statement always assigns the new function to the name in the header, instead of returning value. lambda's body is a single expression, not a block of statements.
+    
+
+2. What is the benefit of lambda?
+Ans- Reduces the lines of code, majorly used when a function is needed for a short period of time
+
+3. Compare and contrast map, filter, and reduce.
+Ans-   map creates a new array by transforming every element in an array.
+  filter creates a new array by removing elements that don't belong.
+  reduce takes all of the elements in an array and reduces them into a single value.
+
+4. What are function annotations, and how are they used?
+Ans-   Function annotations provide a way of associating various parts of a function with            
+       arbitrary python expressions at compile time.
+
+5. What are recursive functions, and how are they used?
+Ans-   recursive functions is a process in which a function calls itself directly or 
+       indirectly.it is used to solving problems that can be broken down into smaller problems.
+
+6. What are some general design guidelines for coding functions?
+Ans- limited use of globals.
+-Use 4-space indentation and no tabs.
+-standard headers for different modules.
+-Use docstrings bcoz there are both single and multiline docstrings that can be used in Python.
+-Wrap lines so that they don't exceed 79 characters,the Python standard library is conservative and requires limiting lines to 79 characters.
+
+7. Name three or more ways that functions can communicate results to a caller.
+Ans- 
+    return():
+    def():
+    print():
+    

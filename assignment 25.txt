@@ -1,0 +1,19 @@
+1. what is the difference between enclosing a list comprehension in square brackets and parentheses?
+Ans- list comprehension is enclosed in [] brackets
+     generator expression is enclosed in () brackets
+     
+2. what is the relationship between generators and iterators?
+Ans- iterators are created with the help of looping generators.
+    every iterator is not a generator but generator is an iterator.
+    
+
+3. what are the signs that a function is a generator function?
+Ans- if the body of a def function contains yield, it is a generator function
+
+4. what is the purpose of a yeild statement?
+Ans- it helps to avoid exiting until the next time it is called
+
+5. What is the relationship between map calls and list comprehensions? Make a comparison between the two
+Ans- List is more clear and consise are than map calls.
+    list allows filtering map calls does not
+    list is more fast than map in case of calling a defined function

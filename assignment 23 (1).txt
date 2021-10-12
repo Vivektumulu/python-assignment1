@@ -1,0 +1,55 @@
+
+
+
+
+1. What is the result of the code, and why?
+>>> def func(a, b=6, c=8):
+print(a, b, c)
+>>> func(1, 2)
+Ans- 1 2 8 
+
+the function assigns the new values by replacing them
+
+2. What is the result of this code, and why?
+>>> def func(a, b, c=5):
+print(a, b, c)
+>>> func(1, c=3, b=2)
+Ans - 1 2 3
+
+3. How about this code: what is its result, and why?
+>>> def func(a, *pargs):
+print(a, pargs)
+>>> func(1, 2, 3)
+
+As- 1(2,3)
+
+As a is exluded in the function command it combines (2,3) to add more flexibility to functions
+
+4. What does this code print, and why?
+>>> def func(a, **kargs):
+print(a, kargs)
+>>> func(a=1, c=3, b=2)
+
+Ans- 1 {'c': 3, 'b': 2}
+As a is exluded in the function command it remains the same and new values are assigned to (b,c) to add more flexibility to functions
+
+5. What gets printed by this, and explain?
+>>> def func(a, b, c=8, d=5): print(a, b, c, d)
+>>> func(1, *(5, 6))
+Ans- 1 5 6 5 
+
+It generates the output as * command is used and function assigns the values
+
+6. what is the result of this, and explain?
+>>> def func(a, b, c): a = 2; b[0] = 'x'; c['a'] = 'y'
+>>> l=1; m=[1]; n={'a':0}
+>>> func(l, m, n)
+>>> l, m, n
+
+Ans- (1, ['x'], {'a': 'y'})
+m[1] is ['x'] here it is taking b[0] = 'x' values in the second position that is 1
+
+
+
+
+
