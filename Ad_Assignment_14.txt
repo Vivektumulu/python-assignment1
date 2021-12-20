@@ -1,0 +1,79 @@
+﻿Q1. Is an assignment operator like += only for show? Is it possible that it would lead to faster results at the runtime?
+Ans- It is not for show it actually adds and assigns the final value to the variable. It is same as the addition operator, there is negligible difference in runtime.
+
+
+
+
+
+Q2. What is the smallest number of statements you'd have to write in most programming languages to replace the Python expression a, b = a + b, a?
+Ans- x = ("a","b")
+     print(x.replace("a","a+b")
+
+
+
+
+Q3. In Python, what is the most effective way to set a list of 100 integers to 0?
+Ans- list1= [i for i in range(0,100)]
+	list1
+
+
+
+
+Q4. What is the most effective way to initialise a list of 99 integers that repeats the sequence 1, 2, 3? S If necessary, show step-by-step instructions on how to accomplish this.
+Ans- x= (1,2,3)*99
+     print(f"{x}", "")
+
+
+
+
+Q5. If you're using IDLE to run a Python application, explain how to print a multidimensional list as efficiently?
+
+
+
+
+
+
+Q6. Is it possible to use list comprehension with a string? If so, how can you go about doing it?
+Ans- yes it is possible 
+	n_num = [x for x in range(10) if x%1 == 0]
+	print(n_num)
+
+
+
+
+Q7. From the command line, how do you get support with a user-written Python programme? Is this possible from inside IDLE?
+
+Ans- Open the configuration dialog by selecting Preferences in the application menu. For more details, see Setting preferences under Help and preferences.
+
+
+
+
+Q8. Functions are said to be “first-class objects” in Python but not in most other languages, such as C++ or Java. What can you do in Python with a function (callable object) that you can't do in C or C++?
+
+
+
+
+
+
+Q9. How do you distinguish between a wrapper, a wrapped feature, and a decorator?
+Ans- Wrapper is also known as decorator, used to modify the behaviour of function or a class.
+     A wrapped feature is a machine learning algorithm used to find all possible iterations for a perfect fit for a dataset.
+
+
+
+
+Q10. If a function is a generator function, what does it return?
+Ans- Generator function returns a object along with a sequence of values.
+
+
+
+
+Q11. What is the one improvement that must be made to a function in order for it to become a generator function in the Python language?
+Ans- A yeild statement must be made to the function.
+
+
+
+
+
+Q12. Identify at least one benefit of generators.
+Ans- Time efficient and memory efficient, increases code readability.

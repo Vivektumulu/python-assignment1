@@ -1,0 +1,52 @@
+﻿Q1. What is the benefit of regular expressions?
+Ans- It helps to identify the search pattern in a string. Further it helps in replacing and formatting the data.
+
+
+
+Q2. Describe the difference between the effects of "(ab)c+" and "a(bc)+." Which of these, if any, is the unqualified pattern "abc+"?
+Ans-   The associative law of multiplication is written as(ab)c=a(bc).
+
+
+
+Q3. How much do you need to use the following sentence while using regular expressions?
+
+import re
+Ans- Once at the start re used as compile(),search(),findall(),sub() for search and replace, split(),etc.	
+
+
+Q4. Which characters have special significance in square brackets when expressing a range, and under what circumstances?
+Ans- Numeric characters.
+The range is an immutable sequence, so that values can be accessed by passing indexes in the square brackets [].
+
+
+
+
+Q5. How does compiling a regular-expression object benefit you?
+Ans-It helps to search a pattern without having to rewrite it, it helps in pattern identification.
+
+
+
+
+
+Q6. What are some examples of how to use the match object returned by re.match and re.search?
+Ans- import redenote character classes, as in match any of the characters/symbols 
+result = re.match(r'in', 'in Ineuron')
+print result.group(0)
+
+>in
+
+import re
+result = re.search(r'ineuron', 'in Ineuron')
+print result.group(0)
+
+>ineuron
+
+Q7. What is the difference between using a vertical bar (|) as an alteration and using square brackets as a character set?
+Ans- |  is used to provide 'or' functionality when used within ()'s, [] is denoted as character classes, as in match any of the characters/symbols 
+
+
+
+
+
+Q8. In regular-expression search patterns, why is it necessary to use the raw-string indicator (r)? In   replacement strings?
+Ans- raw string notation (r"text") keeps regular expressions meaningful and confusion-free.
