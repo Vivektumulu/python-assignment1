@@ -1,0 +1,19 @@
+Q1. What is the concept of a metaclass?
+Ans-   In object-oriented programming, a metaclass is a class whose instances are classes.
+      Just as an ordinary class defines the behavior of certain objects, a metaclass defines the behavior of certain classes and their instances. 
+      Not all object-oriented programming languages support metaclasses.
+
+
+
+Q2. What is the best way to declare a class's metaclass?
+Ans- at the module level".because this way all classes of this module will be created using this metaclass and we just have to tell the metaclass
+     to turn all attributes to uppercase.
+
+
+Q3. How do class decorators overlap with metaclasses for handling classes?
+Ans- metaclasses are designed to manage classes and applying them to managing instances is less straightforward.
+
+
+Q4. How do class decorators overlap with metaclasses for handling instances?
+Ans- Because they work by automatically rebinding a class name to the result of a function,
+though there's no reason that we can't use them to augment the class before any instances are ever created.
