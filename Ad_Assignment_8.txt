@@ -1,0 +1,43 @@
+﻿Q1. What are the two latest user-defined exception constraints in Python 3.10?
+
+
+Ans- args and with_traceback
+
+
+Q2. How are class-based exceptions that have been raised matched to handlers?
+
+
+Ans- A try statement may have more than one except clause, to specify handlers for different exceptions. 
+
+
+Q3. Describe two methods for attaching context information to exception artifacts.
+
+
+
+
+
+
+Q4. Describe two methods for specifying the text of an exception object's error message.
+
+
+Ans- the two methods are
+
+
+for line in open("myfile.txt"):
+    print(line, end="")
+
+
+And with command in statement enables cleaning
+
+
+with open("myfile.txt") as f:
+    for line in f:
+        print(line, end="")
+
+
+
+
+Q5. Why do you no longer use string-based exceptions?
+
+
+Ans-  Python class definitions for the standard exceptions are imported from the standard module "exceptions". You can't change this file thinking that the changes will automatically show up in the standard exceptions; the builtin module expects the current hierarchy as defined in exceptions.py.
