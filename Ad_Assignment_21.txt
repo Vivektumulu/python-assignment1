@@ -1,0 +1,60 @@
+﻿Q1. What is a probability distribution, exactly? If the values are meant to be random, how can you predict them at all?
+Ans- It helps to plot out all the different outcomes of an experiment. 
+     Adding all the probabilities helps predict a range.
+
+
+
+
+Q2. Is there a distinction between true random numbers and pseudo-random numbers, if there is one? Why are the latter considered “good enough”?
+Ans- Random numbers use unpredictable physical means to generate numbers and Pseudo-random numbers use mathematical algorithms.
+     Pseudo- Random numbers produces sequences of random numbers based on a algorithm and thus are not predictable thus more preferred.
+
+
+
+
+Q3. What are the two main factors that influence the behaviour of a "normal" probability distribution?
+Ans- Mean and standard deviation
+
+
+
+
+
+Q4. Provide a real-life example of a normal distribution.
+Ans-Tossing a coin
+
+
+
+
+
+Q5. In the short term, how can you expect a probability distribution to behave? What do you think will happen as the number of trials grows?
+Ans- The short term results can be vague and include multiple factors.
+    As number of trials grow the probability of success increases and gets closer to a normal distribution.
+
+
+
+Q6. What kind of object can be shuffled by using random.shuffle?
+
+Ans- Lists
+
+
+
+
+Q7. Describe the math package's general categories of functions.
+ANs- 
+
+
+
+
+
+Q8. What is the relationship between exponentiation and logarithms?
+ANs- Logarithmic functions are always inverses of exponential functions.
+
+
+
+
+
+
+Q9. What are the three logarithmic functions that Python supports?
+Ans- log(a,(Base))
+     log2(a)
+     log10(a)

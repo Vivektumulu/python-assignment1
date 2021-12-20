@@ -1,0 +1,65 @@
+﻿1. Compare and contrast the float and Decimal classes' benefits and drawbacks
+Ans- Both are used to store numerical values.
+     Float class- is a number data type, all the values can be represented by rounding up.
+     Decimal class- is a precision data type where all the values are represented as it is.
+
+
+
+
+2. Decimal('1.200') and Decimal('1.2') are two objects to consider. In what sense are these the same object? Are these just two ways of representing the exact same value, or do they correspond to different internal states?
+
+
+
+
+
+
+3. What happens if the equality of Decimal('1.200') and Decimal('1.2') is checked?
+
+
+
+
+
+
+4. Why is it preferable to start a Decimal object with a string rather than a floating-point value?
+
+
+
+
+
+
+5. In an arithmetic phrase, how simple is it to combine Decimal objects with integers?
+
+
+
+
+
+
+6. Can Decimal objects and floating-point values be combined easily?
+
+
+
+
+
+
+7. Using the Fraction class but not the Decimal class, give an example of a quantity that can be expressed with absolute precision.
+
+
+
+
+
+
+8. Describe a quantity that can be accurately expressed by the Decimal or Fraction classes but not by a floating-point value.
+
+
+
+
+
+
+Q9.Consider the following two fraction objects: Fraction(1, 2) and Fraction(1, 2). (5, 10). Is the internal state of these two objects the same? Why do you think that is?
+
+
+
+
+
+
+Q10. How do the Fraction class and the integer type (int) relate to each other? Containment or inheritance?
