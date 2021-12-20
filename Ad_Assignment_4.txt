@@ -1,0 +1,17 @@
+Q1. Which two operator overloading methods can you use in your classes to support iteration?
+Ans- The (+) _add_ method and  _next__ method returns the next value and is implicitly called at each loop increment
+
+
+Q2. In what contexts do the two operator overloading methods manage printing?
+Ans- It evaluates the requirement and prints their product.
+
+
+Q3. In a class, how do you intercept slice operations?
+Ans- _getitem_ is the method used to intercept slice operations.
+
+
+Q4. In a class, how do you capture in-place addition?
+And- iadd(), a+=b operation for string and tuples.
+
+Q5. When is it appropriate to use operator overloading?
+

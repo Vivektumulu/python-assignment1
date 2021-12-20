@@ -1,0 +1,23 @@
+Q1. What is the meaning of multiple inheritance?
+Ans- It is a feature where a class is derived from more than one base class.
+
+
+
+Q2. What is the concept of delegation?
+Ans- It is a object oriented technique where you change any one method of the object by creating a new class. And it would delegate the same technique to all other methods. 
+
+
+
+Q3. What is the concept of composition?
+Ans- Composition is used to create complex type by bringing together different objects of other types. Composition enables users to reuse the code by making modifications to the objects.
+
+
+
+Q4. What are bound methods and how do we use them?
+Ans- The first argument that is dependent on the instance of the class. It can be used with this terminology  Func(obj,arg)
+
+
+Q5. What is the purpose of pseudoprivate attributes?
+Ans- With this technique the data members can be made private, and cannot be accessed when out of class.
+
+

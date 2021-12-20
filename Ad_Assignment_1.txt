@@ -1,0 +1,52 @@
+﻿Q1. What is the purpose of Python's OOP?
+
+Ans- It helps in making the program easy to grasp and increases its efficiency 
+     as it can be reused and is polymorphic offering same interface.
+
+
+
+Q2. Where does an inheritance search look for an attribute?
+
+Ans- It searches for the lowest occurence of an attribute name.
+
+
+Q3. How do you distinguish between a class object and an instance object?
+
+Ans- A class object is an instance of a class and instance is specific represenation of any object
+
+
+
+
+Q4. What makes the first argument in a class’s method function special?
+
+Ans- It always has a refrence to the current instance of the class.
+
+
+
+
+Q5. What is the purpose of the __init__ method?
+
+Ans- As a constructor it is used to initialize the object state.
+
+
+
+
+Q6. What is the process for creating a class instance?
+
+Ans-  call the class using class name and pass in whatever arguments its __init__ method accepts.
+
+
+
+
+
+
+Q7. What is the process for creating a class?
+Ans-   classes are created by keyword class. Attributes are the variables that belong to a class. Attributes are always public and can be accessed using the dot(.)operator.
+
+
+
+
+
+
+Q8. How would you define the superclasses of a class?
+Ans- Superclass is inherited from a class, thus also called as ancestors.

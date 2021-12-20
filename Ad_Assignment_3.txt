@@ -1,0 +1,19 @@
+1. What is the concept of an abstract superclass?
+Ans- A commom superclass for all subclasses, it acts as a blueprint to define other classes
+
+
+2. What happens when a class statement's top level contains a basic assignment statement?
+Ans- The assignment statement assigns resulting objects to target lists from left to right.
+
+3. Why does a class need to manually call a superclass's __init__ method?
+Ans- The base class must ADD processes for init method to be called manually.
+
+4. How can you augment, instead of completely replacing, an inherited method?
+Ans-   A subclass can either completely override the implementation for an inherited method or the subclass 
+       can enhance the method by adding functionality to it.
+
+
+
+5. How is the local scope of a class different from that of a function?
+Ans-  Local scope occurs when we create a variable inside a function.
+By doing that the visibility and accessibility of the variable is only allowed within that function.Any variable created inside that is a local variable.

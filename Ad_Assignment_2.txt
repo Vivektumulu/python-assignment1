@@ -1,0 +1,52 @@
+﻿Q1. What is the relationship between classes and modules?
+Ans- A class defines the blueprint of object creation, and modules are collection of instances that can be reused 
+
+
+
+
+
+Q2. How do you make instances and classes?
+Ans- To create instances of a class you need to call the class name and pass the acceptable arguments its __init__ accepts.
+     To create a class, new instances of a object are created allowing creation of new instances of that type.
+
+
+
+
+Q3. Where and how should be class attributes created?
+Ans-  Class attributes are created directly in the class and shared by objects of the class.
+
+
+
+
+Q4. Where and how are instance attributes created?
+Ans- Defined in the constructor, directly inside a class instance attributes are created using self parameter.
+
+
+
+Q5. What does the term "self" in a Python class mean?
+Ans- It represents instance of a class, meaning we can access the attributes and methods of the class in python.
+
+
+
+Q6. How does a Python class handle operator overloading?
+Ans- It helps to give extended meaning beyond the pre-defined operational limits.
+
+
+
+
+
+Q7. When do you consider allowing operator overloading of your classes?
+
+Ans- When the meaning of python operator is required to be changed operator overloading is accepted.
+
+
+
+
+Q8. What is the most popular form of operator overloading?
+Ans- The _add_ operator also known as the magic function
+
+
+
+
+Q9. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+Ans- Inheritance and Encapsulation.

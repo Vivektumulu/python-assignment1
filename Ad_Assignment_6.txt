@@ -1,0 +1,20 @@
+Q1. Describe three applications for exception processing.
+Ans-  An exception is a Python object which represents an error
+1) Division by Zero, 2) Accessing a file which is not existent, 3) Addition of two incompatible types
+
+
+Q2. What happens if you don't do something extra to treat an exception?
+Ans-  If we do not handle the exception, the interpreter doesn't execute all the code that exists after the exception.
+
+
+Q3. What are your options for recovering from an exception in your script?
+Ans- Try-catch is meant to help in the exception handling. This means somehow that it will help our system to be more robust: try to recover from an unexpected event
+
+
+Q4. Describe two methods for triggering exceptions in your script.
+Ans- Try and except statements are used to catch and handle exceptions in Python. Statements that can raise exceptions are kept inside the try clause and the statements that handle the exception are written inside except clause.
+
+
+Q5. Identify two methods for specifying actions to be executed at termination time, regardless of whether or not an exception exists.
+Ans-   The try block contains one or more statements which are likely to encounter an exception. if the statements in this block are executed without an exception, the subsequent except block is skipped.
+
