@@ -27,7 +27,9 @@ Ans- x= (1,2,3)*99
 
 
 Q5. If you're using IDLE to run a Python application, explain how to print a multidimensional list as efficiently?
-
+Ans- Multidimensional lists are just lists within lists.
+	a = [[12, 14, 16, 18, 20], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20]]
+        print(a)
 
 
 
